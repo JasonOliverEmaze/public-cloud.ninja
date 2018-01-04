@@ -1,13 +1,5 @@
 version: 0.1
 
-env:
-  variables:
-    key: "value"
-    key: "value"
-  parameter-store:
-    key: "value"
-    key: "value"
-
 phases:
   build:
     commands:
