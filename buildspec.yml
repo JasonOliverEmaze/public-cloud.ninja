@@ -1,0 +1,20 @@
+version: 0.1
+
+env:
+  variables:
+    key: "value"
+    key: "value"
+  parameter-store:
+    key: "value"
+    key: "value"
+
+phases:
+  build:
+    commands:
+      - echo nothing to do yet
+      - command
+artifacts:
+  files:
+    - index.html
+    - assets/*
+    - images/*
